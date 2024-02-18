@@ -9,13 +9,13 @@ function Navbar(){
                 <ul>
                     <div className="nav">
                         <div className="head">
-                            <a>DONATOO</a>
+                            <a>BLOOD CENTER</a>
                         </div>
-                    <li><Link to='/Home'>HOME</Link></li>
+                    <li><Link to='/'>HOME</Link></li>
                     <li>ABOUT US</li>
                     <li>GALLERY</li>
                     <li>SERVICES</li>
-                    <li>CONTACT</li>
+                    <li><Link to='/Contact'>CONTACT</Link></li>
                     </div>
                 </ul>
             </div>
