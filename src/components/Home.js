@@ -1,5 +1,6 @@
 import '../css/Home.css';
 import Contact from './Contact';
+import Service from './Service';
 function Home(){
     return(
         <>
@@ -8,6 +9,7 @@ function Home(){
 <p>Your Health is our priority</p> 
 </div>
         </div>
+        <Service/>
         <Contact/>
         </>
     );
