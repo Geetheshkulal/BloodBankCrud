@@ -2,10 +2,11 @@ import css from '../css/Contact.css';
 import location from '../images/location-dot-solid.svg';
 import email from '../images/envelope-solid.svg';
 import phone from '../images/phone-solid.svg';
+import Navbar from './Navbar';
 function Contact(){
     return(
         <>
-          
+         <Navbar/> 
         <div className='contactus'>
         <p className='contact-heading'>CONTACT US</p>
             <div className='contact-1'>

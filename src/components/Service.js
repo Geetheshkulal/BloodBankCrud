@@ -6,6 +6,7 @@ import blood_donation from '../images/blood-donation.jpg';
 import red_blood from '../images/red-blood.jpg';
 import platelette from '../images/platelette-image.jpg';
 import cell_donation from '../images/Cell-donation.jpg';
+import Navbar from './Navbar';
  function Service(){
     const responsive = {
         superLargeDesktop: {
@@ -28,6 +29,7 @@ import cell_donation from '../images/Cell-donation.jpg';
       };
 return(
     <>
+    <Navbar/>
     <div className='service-heading'>
         <h2>SERVICES</h2>
     

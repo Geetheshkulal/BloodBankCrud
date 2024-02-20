@@ -5,13 +5,15 @@ import Service from './components/Service';
 import Contact from './components/Contact';
   import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Signup from './components/Signup';
 
   function App() {
     return (
       <div className="App">
         <BrowserRouter>
-        <Navbar/>
+    {/* <Signup/> */}
         <Routes>
+          {/* <Route path='/' element={<Signup/>}/> */}
           <Route path='/' element={<Home/>}/>
           
           <Route path='/Service' element={<Service/>}/>
